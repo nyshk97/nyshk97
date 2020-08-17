@@ -1,10 +1,4 @@
-### Hi there 👋
-
-<!--
-**nyshk97/nyshk97** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
+## Hi there 👋
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
@@ -13,4 +7,7 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+
+## Qiita
+[![My Qiita followers](https://qiita-badge.apiapi.app/s/d0ne1s/posts.svg)](http://qiita.com/d0ne1s)
+[![My Qiita contributions](https://qiita-badge.apiapi.app/s/d0ne1s/contributions.svg)](http://qiita.com/d0ne1s)
