@@ -23,7 +23,8 @@ Ruby on Railsが最も得意だが、Python、TypeScript、PHPなどWeb系の言
 | Docker | 5年以上 | 開発環境・本番環境ともに構築・運用経験あり |
 | TypeScript / React | 4年 | フロントエンド開発で使用。Next.jsの経験もあり |
 | GraphQL | 2年 | Rails + GraphQLでのAPI設計・実装 |
-| Python | 1年 | AI Gateway開発。LiteLLMを使ったLLMプロバイダのルーティング等 |
+| Python | 1年 | AI基盤開発。LiteLLMを使った複数LLMプロバイダへのルーティング等 |
+| PHP | 2〜3年 | FuelPHPでのSaaS開発、自社サービスの運営・保守 |
 | Terraform | 2年 | AWS環境のIaC管理。OpenTofu含む |
 
 ## 強み
