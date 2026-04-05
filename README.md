@@ -4,7 +4,7 @@ Freelance Backend Engineer based in Yokohama, Japan (JST / UTC+9).
 
 Specializing in Ruby on Rails with 7 years of experience. Skilled in backend performance optimization, Ruby version upgrades, and architecture improvements (modular monolith, etc.). Also experienced with Python, TypeScript, AWS/Terraform, and GraphQL.
 
-Co-founder & CEO of [Danmica, Inc.](https://hyperform.jp/) — operating developer-focused SaaS products.
+Co-founder & CEO of [Danmica, Inc.](https://danmica.com/) — operating developer-focused SaaS products.
 
 📄 [Full Resume](./resume.md)
 
