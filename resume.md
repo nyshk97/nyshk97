@@ -1,106 +1,93 @@
-## 基本情報
-- 所在地
-    - 横浜, 日本 (JST / UTC+9)
-- 学歴
-    - 上智大学 学部卒(2019年)
+# Tsubasa Namatame
 
-## 職務要約
-2019年10月にフリーランスエンジニアとして独立し、以来約7年にわたって複数のWebサービスの開発・運用に携わっている。
-Ruby on Railsを中心としたバックエンド開発を主軸に、Python(AI基盤)やインフラ(AWS、Terraform)まで対応領域を広げてきた。
-Ruby on Railsが最も得意だが、Python、TypeScript、PHPなどWeb系の言語であれば幅広く対応可能。
-バックエンドのパフォーマンス改善、Rubyバージョンアップ、アーキテクチャ改善(モジュラーモノリス化等)など、既存サービスの品質向上に特に強みがある。
+Yokohama, Japan (JST / UTC+9)
 
-### スキルサマリー
-| スキル | 経験年数 | 備考 |
+## Summary
+
+Freelance backend engineer with approximately 7 years of experience building and maintaining web services since October 2019. Primarily focused on Ruby on Rails, with additional experience in Python, TypeScript, and PHP.
+
+Core strengths include backend performance optimization (reduced page load times by up to 67% on a 30M MAU service), Ruby version upgrades (led Ruby 2 → 3 migration), and architecture improvements (led modular monolith migration using Packwerk). Primarily focused on backend and infrastructure, with the ability to handle frontend work when needed. Able to ramp up quickly on legacy codebases with minimal documentation — once took over a project after the entire engineering team had left, rebuilt documentation, error monitoring, and development workflows from scratch.
+
+## Skills
+
+| Skill | Years | Details |
 |---|---|---|
-| Ruby on Rails | 7年 | 最も得意。バージョンアップ、パフォーマンス改善、アーキテクチャ改善の実績あり |
-| TypeScript | 4年 | バックエンド・フロントエンド両方で使用 |
-| Python | 1年 | AI基盤開発。LiteLLMを使った複数LLMプロバイダへのルーティング等 |
-| PHP | 2年 | Laravelでの自社SaaS開発・運営 |
-| GraphQL | 2年 | Rails + GraphQLでのAPI設計・実装 |
-| AWS / Terraform | 5年 | ECS、S3、EventBridge、Lambda等。Terraform/OpenTofuによるIaC管理も対応 |
-| Docker | 5年 | 開発環境・本番環境ともに構築・運用経験あり |
-| React / Next.js | 4年 | SPAおよびSSRでの開発経験あり |
+| Ruby on Rails | 7 | Primary expertise. Version upgrades, performance optimization, architecture improvements |
+| TypeScript | 4 | Backend and frontend |
+| Python | 1 | AI integration layer using LiteLLM for multi-provider LLM routing |
+| PHP | 2 | Laravel-based SaaS development |
+| GraphQL | 2 | API design and implementation with Rails |
+| AWS / Terraform | 5 | ECS, S3, EventBridge, Lambda, etc. IaC with Terraform/OpenTofu |
+| Docker | 5 | Development and production environments |
+| React / Next.js | 4 | SPA and SSR |
 
-## 強み
-- **バックエンドの改善・最適化**: Rubyバージョンアップ(2系→3系)の推進実績、月間UU3000万規模のサービスでページ表示速度を最大1/3に短縮したパフォーマンス改善実績がある
-- **アーキテクチャ改善**: 肥大化したRailsモノリスに対してPackwerkを使ったモジュラーモノリス化を主導し、ドメイン境界の整理と依存関係の可視化を推進した経験がある
-- **バックエンド中心の幅広い対応力**: バックエンド(Rails, GraphQL, Python)とインフラ(AWS, Terraform)が主軸。必要に応じてフロントエンド(React, TypeScript)も対応できる
-- **レガシー環境への適応力**: ドキュメントや引き継ぎが不十分な環境でも、既存コードや仕様を自ら読み解いて素早くキャッチアップできる。エンジニア全員が離脱した直後のプロジェクトを引き継ぎ、仕様整理・ドキュメント化・エラー検知の整備から立て直した実績がある
+## Experience
 
-## 職務経歴詳細
-### フリーランスエンジニア (2019年10月 ~ 現在)
-#### [株式会社Lubis] AI搭載のスライド自動生成サービス「イルシル」 (2025年3月～現在)
-`チーム規模` 全体約20人、エンジニア8人
+### Freelance Engineer | Oct 2019 – Present
 
-`担当業務` 機能開発、AI基盤構築、インフラ整備
+#### Lubis, Inc. — AI-Powered Slide Generation SaaS | Mar 2025 – Present
+**Role:** Full-stack Engineer (team: ~20, engineers: 8)
 
-`使用技術` Ruby on Rails、Next.js、React、TypeScript、Python、LiteLLM、Terraform(OpenTofu)、AWS(ECS、EventBridge、ECR、S3)、Docker、MySQL、Redis、Stripe、Active Admin
+**Stack:** Ruby on Rails, Next.js, TypeScript, Python, LiteLLM, Terraform (OpenTofu), AWS (ECS, EventBridge, ECR, S3), Docker, MySQL, Redis, Stripe
 
-`コメント` フルスタックエンジニアとして、Rails(API)・Next.js(フロント)・Python(AI基盤)・AWS/Terraform(インフラ)と幅広く開発に携わっている。
+- Built CMS admin panel with Active Admin and designed v2 APIs for B2B features including folder/document CRUD, member management, and Stripe-based subscription billing
+- Developed AI integration layer in Python using LiteLLM, implementing multi-provider routing (Gemini, Claude, GPT) for slide outline generation, content generation, cover design, and diagram generation
+- Implemented Google Search grounding and async parallel processing for AI endpoints
+- Managed EventBridge Scheduler with OpenTofu and improved CI/CD pipelines
 
-参画後まず取り組んだのは、Active Adminを使ったCMS管理画面の構築と、既存APIのv2化。フォルダ・ドキュメントのCRUD、ゴミ箱機能、メンバー管理、Stripe連携によるサブスクリプション管理など、法人向け機能の基盤となるAPIを一通り設計・実装した。また、トライアル終了通知や人数超過通知といったバッチ処理の整備、EventBridge SchedulerのOpenTofu管理化やデプロイパイプラインの改善なども並行して進めている。
+#### Lincwell, Inc. — Online Medical Clinic Management System | Jun 2024 – Jun 2025
+**Role:** Backend / Frontend Engineer (team: ~10, engineers: 4)
 
-直近ではPythonによるAI基盤の開発が中心。LiteLLMを使ってGemini、Claude、GPTなど複数のLLMプロバイダへのモデルルーティングを実装し、スライド構成案生成・本文生成・表紙生成・図解生成といった複数のAIエンドポイントを設計・実装している。Google Searchグラウンディング対応や非同期並列処理の導入なども行っている。
+**Stack:** Ruby on Rails, GraphQL, React, TypeScript, Packwerk, Docker, AWS
 
-#### [株式会社Lincwell] オンライン診療・クリニック管理システム「クリニックフォア」 (2024年6月～2025年6月)
-`チーム規模` 全体約10人、エンジニア4人
+- Developed appointment booking and medical record systems using Rails + GraphQL backend and React frontend in a Scrum team
+- Integrated with ORCA (medical billing computer) APIs, navigating domain-specific data structures
+- Led modular monolith migration using Packwerk — restructured domain boundaries and visualized dependency graphs across the monolithic Rails application
 
-`担当業務` 機能開発（フロントエンド・バックエンド）
+#### my best, Inc. — Product Comparison Media (30M MAU) | Oct 2023 – May 2024
+**Role:** Backend Engineer (company: ~200, team: ~10, engineers: 2–5)
 
-`使用技術` Ruby on Rails、GraphQL、React、TypeScript、Packwerk、Docker、AWS
+**Stack:** Ruby on Rails, GraphQL, Elasticsearch, Next.js, TypeScript, Docker, MySQL, Redis
 
-`コメント` 医療系サービス「クリニックフォア」の開発に参画。主にクリニックの予約システムやカルテシステムの開発を担当した。スクラム体制のもと、Ruby on Rails + GraphQLによるバックエンドとReactによるフロントエンドの両方を担当。
+- Focused on backend API development using Rails and GraphQL for a product comparison platform with 30M monthly unique users
+- Identified and resolved performance bottlenecks through backend query optimization and data retrieval improvements, reducing page load times by up to 67%
+- Evaluated infrastructure architecture and cost estimates for video content delivery
+- Delivered RSS feeds, batch data processing, and various feature improvements in 2-week Scrum sprints
 
-レセプトコンピュータ（ORCA）とのAPI連携では、医療特有の仕様やデータ構造を理解しながら繋ぎ込みを進めた。また、モノリスとして肥大化していたRailsアプリケーションに対して、Packwerkを使ったモジュラーモノリス化を主導し、ドメイン境界の整理と依存関係の可視化を推進した。
+#### WAmazing, Inc. — Ski Resort Booking Platform for Inbound Tourists | Jun 2022 – Sep 2023
+**Role:** Lead Engineer (company: ~160, team: ~20, engineers: 2–5)
 
-#### [株式会社マイベスト] 比較レビューメディア (2023年10月～2024年5月)
-`チーム規模` 全体約200人、チーム約10人、エンジニア2〜5人
+**Stack:** Ruby on Rails, React, TypeScript, Docker, PostgreSQL, Redis, Heroku, CircleCI
 
-`担当業務` 運用保守(機能追加、機能改善、パフォーマンス改善など)
+- Joined as lead engineer after the entire senior engineering team had departed; rebuilt documentation, specs, and error monitoring from scratch
+- Redesigned backend data models from the ground up for new product lines, including database schema, CSV ingestion format, and API integration
+- Led Ruby 2 → 3 upgrade across the application
+- Collaborated with a multicultural team (approximately half non-Japanese members) and coordinated with external partners and cross-functional departments
 
-`使用技術` Ruby on Rails、GraphQL、Elasticsearch、Next.js、TypeScript、Docker、MySQL、Redis
+#### Laibo, Inc. — Company Review Platform (1.5M MAU) | Apr 2021 – May 2022
+**Role:** Backend Engineer (company: ~40, engineers: 10)
 
-`コメント` 月間UU3000万を越える商品比較メディアで、GraphQLとRuby on Railsを用いたバックエンドのAPI開発を中心に担当。
+**Stack:** Ruby on Rails, RSpec, Vue.js, Docker, ECS, MySQL, CircleCI, Terraform
 
-パフォーマンス改善では、バックエンドとフロントエンドそれぞれのボトルネックを計測・特定し、改善策を調査・実装した。バックエンド側ではクエリの最適化やデータ取得量の見直しを行い、最終的にページ表示速度を最大1/3程度まで短縮した。
+- Conducted daily code reviews and drove feature improvements and test infrastructure enhancements
+- Evaluated and introduced Autify for E2E testing, establishing team-wide testing workflows
+- Ran data-driven UX improvements using Google Analytics and Redash, iterating through hypothesis → implementation → measurement cycles
+- Contributed to engineering hiring: designed code-reading-based technical assessments and conducted interviews
 
-その他、商品紹介動画配信のためのインフラ構成・費用見積もり、RSS配信機能の実装、データ一括調整バッチの作成など、2週間1スプリントのスクラムで幅広く対応した。
+#### Early Freelance Projects | Oct 2019 – Oct 2020
+- Built an order management system from scratch as the sole engineer (requirements through deployment) using Ruby on Rails
+- Designed and implemented web billing systems for 3 gas utility companies, translating requirements from non-technical stakeholders into multiple solution proposals
 
-#### [WAmazing株式会社] 訪日外国人向けスキー場予約サービス (2022年6月～2023年9月)
-`チーム規模` 全体約160人、チーム約20人、エンジニア2〜5人
+### ChatPlus, Inc. | Intern → Full-time | Dec 2017 – Sep 2019
+Built third-party API integrations for a chat SaaS product (team: ~10) using FuelPHP and AWS (EC2, RDS, S3, Lambda, SQS).
 
-`担当業務` 運用保守(機能追加、機能改善、パフォーマンス改善など)
+### Co-founder & CEO | Danmica, Inc. | Dec 2021 – Present
+Operating developer-focused SaaS products ([HyperForm](https://hyperform.jp/), [malcheck](https://malcheck.com/)) with ~140 paying customers. Responsible for overall business operations as product owner.
 
-`使用技術` Ruby on Rails、React、TypeScript、Docker、PostgreSQL、Redis、Heroku、CircleCI
+## Education
 
-`コメント` リリースから5年ほど経過しているサービスに、リードエンジニアとして参画。参画直前に中堅以上のエンジニアが全員離脱しており、開発環境やサービスの仕様整理からのスタートだった。
+Sophia University — B.A. (2019)
 
-他部署や提携会社と連携をとりながら、仕様・業務フローのドキュメント化、エラー検知の仕組みの整備、新商品開発などに並行して取り組んだ。新商品開発ではバックエンドのデータモデルを根本的に再設計し、データベース設計・CSV入稿設計・API連携の情報取得方法を0から構築した。
+## Publications
 
-オフシーズンにはRuby 2系→3系へのアップデートを中心となって推進。チームの約半数が外国籍のメンバーという環境で、多様なバックグラウンドを持つメンバーと協力しながら開発を進めた。
-
-#### [株式会社ライボ] 企業情報の口コミサービス (2021年4月～2022年5月)
-`チーム規模` 全体約40人、エンジニア10人
-
-`担当業務` 運用保守、テスト基盤改善、エンジニア採用
-
-`使用技術` Ruby on Rails、RSpec、Vue.js、Docker、ECS、MySQL、CircleCI、Terraform
-
-`コメント` MAU150万人を越えるサービスで、平均して毎日1件以上のコードレビューを行いながら、機能改善やテスト基盤の整備に取り組んだ。テスト周りではツールやフレームワークの調査・比較検討を行い、最終的にAutifyを導入してチームの運用フローを確立した。
-
-また、UX改善チームではGoogle AnalyticsやRedash等を使ったPV数・クリック数の計測に基づき、仮説→実装→検証のサイクルを回した。エンジニア採用にも携わり、コードリーディングを中心とした技術課題の設計・面接を担当した。
-
-#### その他の初期案件 (2019年10月～2020年10月)
-Ruby on Railsを使った受発注管理システムの新規構築(要件定義から一人で担当)や、ガス会社向けWeb請求システムの設計・実装(3社分)に携わった。いずれもITの知見が少ないステークホルダーが多い環境で、要求から目的を読み解き、複数の仕様案を提示しながら開発を進めた。
-
-### 正社員・インターン
-#### チャットプラス株式会社 (2017年12月～2019年9月)
-SaaS企業(約10人)で学生インターン→正社員として勤務。FuelPHP・AWS環境での他社サービスとのAPI連携開発を中心に担当した。
-
-### 自社事業
-#### [株式会社ダンミカ] Developer向けSaaSの運営 (2021年12月～現在)
-共同創業した会社で代表として活動。Developer向けSaaS（[HyperForm](https://hyperform.jp/)、[malcheck](https://malcheck.com/)）を運営し、有料契約数は約140件。プロダクトオーナーとして事業運営全般を担当。
-
-## 執筆
-- 書籍: [個人Webサービスシステム構成事典](https://booth.pm/ja/items/2381283)
+- Book: [個人Webサービスシステム構成事典](https://booth.pm/ja/items/2381283) (System Architecture Guide for Indie Web Services)
