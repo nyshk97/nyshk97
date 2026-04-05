@@ -78,11 +78,11 @@ Core strengths include backend performance optimization (reduced page load times
 - Built an order management system from scratch as the sole engineer (requirements through deployment) using Ruby on Rails
 - Designed and implemented web billing systems for 3 gas utility companies, translating requirements from non-technical stakeholders into multiple solution proposals
 
-### ChatPlus, Inc. | Intern → Full-time | Dec 2017 – Sep 2019
-Built third-party API integrations for a chat SaaS product (team: ~10) using FuelPHP and AWS (EC2, RDS, S3, Lambda, SQS).
-
 ### Co-founder & CEO | Danmica, Inc. | Dec 2021 – Present
 Operating developer-focused SaaS products ([HyperForm](https://hyperform.jp/), [malcheck](https://malcheck.com/)) with ~140 paying customers. Responsible for overall business operations as product owner.
+
+### ChatPlus, Inc. | Intern → Full-time | Dec 2017 – Sep 2019
+Built third-party API integrations for a chat SaaS product (team: ~10) using FuelPHP and AWS (EC2, RDS, S3, Lambda, SQS).
 
 ## Education
 
