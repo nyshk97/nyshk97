@@ -19,13 +19,14 @@ Ruby on Railsが最も得意だが、Python、TypeScript、PHPなどWeb系の言
 | スキル | 経験年数 | 備考 |
 |---|---|---|
 | Ruby on Rails | 7年 | 最も得意。バージョンアップ、パフォーマンス改善、アーキテクチャ改善の実績あり |
-| AWS | 5年以上 | ECS、S3、EventBridge、Lambda等。Terraform/OpenTofuによるIaC管理も対応 |
-| Docker | 5年以上 | 開発環境・本番環境ともに構築・運用経験あり |
-| TypeScript / React | 4年 | フロントエンド開発で使用。Next.jsの経験もあり |
-| GraphQL | 2年 | Rails + GraphQLでのAPI設計・実装 |
+| TypeScript | 4年 | バックエンド・フロントエンド両方で使用 |
 | Python | 1年 | AI基盤開発。LiteLLMを使った複数LLMプロバイダへのルーティング等 |
-| PHP | 2〜3年 | FuelPHPでのSaaS開発、自社サービスの運営・保守 |
+| PHP | 2年 | Laravelでの自社SaaS開発・運営 |
+| GraphQL | 2年 | Rails + GraphQLでのAPI設計・実装 |
+| AWS | 5年 | ECS、S3、EventBridge、Lambda等。Terraform/OpenTofuによるIaC管理も対応 |
 | Terraform | 2年 | AWS環境のIaC管理。OpenTofu含む |
+| Docker | 5年 | 開発環境・本番環境ともに構築・運用経験あり |
+| React / Next.js | 4年 | SPAおよびSSRでの開発経験あり |
 
 ## 強み
 - **バックエンドの改善・最適化**: Rubyバージョンアップ(2系→3系)の推進実績、月間UU3000万規模のサービスでページ表示速度を最大1/3に短縮したパフォーマンス改善実績がある
@@ -43,11 +44,11 @@ Ruby on Railsが最も得意だが、Python、TypeScript、PHPなどWeb系の言
 
 `使用技術` Ruby on Rails、Next.js、React、TypeScript、Python、LiteLLM、Terraform(OpenTofu)、AWS(ECS、EventBridge、ECR、S3)、Docker、MySQL、Redis、Stripe、Active Admin
 
-`コメント` フルスタックエンジニアとして、Rails(API)・Next.js(フロント)・Python(AI Gateway)・AWS/Terraform(インフラ)と幅広く開発に携わっている。
+`コメント` フルスタックエンジニアとして、Rails(API)・Next.js(フロント)・Python(AI基盤)・AWS/Terraform(インフラ)と幅広く開発に携わっている。
 
 参画後まず取り組んだのは、Active Adminを使ったCMS管理画面の構築と、既存APIのv2化。フォルダ・ドキュメントのCRUD、ゴミ箱機能、メンバー管理、Stripe連携によるサブスクリプション管理など、法人向け機能の基盤となるAPIを一通り設計・実装した。また、トライアル終了通知や人数超過通知といったバッチ処理の整備、EventBridge SchedulerのOpenTofu管理化やデプロイパイプラインの改善なども並行して進めている。
 
-直近ではPythonによるAI Gatewayの開発が中心。LiteLLMを使ってGemini、Claude、GPTなど複数のLLMプロバイダへのモデルルーティングを実装し、スライド構成案生成・本文生成・表紙生成・図解生成といった複数のAIエンドポイントを設計・実装している。Google Searchグラウンディング対応や非同期並列処理の導入なども行っている。
+直近ではPythonによるAI基盤の開発が中心。LiteLLMを使ってGemini、Claude、GPTなど複数のLLMプロバイダへのモデルルーティングを実装し、スライド構成案生成・本文生成・表紙生成・図解生成といった複数のAIエンドポイントを設計・実装している。Google Searchグラウンディング対応や非同期並列処理の導入なども行っている。
 
 #### [株式会社Lincwell] オンライン診療・クリニック管理システム「クリニックフォア」 (2024年6月～2025年6月)
 `チーム規模` 全体約10人、エンジニア4人
